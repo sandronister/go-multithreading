@@ -20,7 +20,7 @@ func main() {
 		go worker(i, data)
 	}
 
-	for i := 0; i <= 10000; i++ {
+	for i := 0; i <= 1000000000; i++ {
 		data <- i
 	}
 }
